@@ -4,7 +4,7 @@ h1{
     justify-content: center;
 }
 
-#purple{
+p{
     color: rebeccapurple;
     background-color: darkgoldenrod;
     transform: rotate(90deg);
