@@ -1,10 +1,10 @@
 h1{
     color: red;
     background-color: turquoise;
-    justify-content: center;
+    text-align: center;
 }
 
-p{
+#purple{
     color: rebeccapurple;
     background-color: darkgoldenrod;
     transform: rotate(90deg);

@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html>
 <h1>Hello World</h1>
 <p>wow so very cool</p>
-<p id="purple">hello I want colors please</p>
+<p id="purple" onclick="myFunction()">hello I want colors please</p>
+<p id="demo">hello</p>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo").style.transform = "rotate(9deg)";
+        document.getElementById("demo").innerHTML = "oops up here now";
+    }
+</script>
 
 <link rel="stylesheet" href="css/style.css">
+</html>
